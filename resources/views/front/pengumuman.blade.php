@@ -57,7 +57,7 @@
                 </div>
             </a>
             @empty
-            <h2 class="mt-5 text-center">Tidak ada pengumuman terbaru</h5>
+            <h2 class="mt-5 text-center">Tidak ada pengumuman terbaru.</h5>
                 @endforelse
         </div>
 

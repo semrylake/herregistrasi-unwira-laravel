@@ -3,7 +3,7 @@
 <main class="main-content pt-7 mb-5">
     <div class="container">
         <div class="row">
-            @foreach ($loket as $a)
+            @forelse ($loket as $a)
             <div class="col-md-3 mb-3">
                 <div class="card shadow card-profile">
                     <img src="{{ asset('storage/'.$a->user->foto) }}" width="100%" height="200px"
@@ -36,7 +36,9 @@
                     </div>
                 </div>
             </div>
-            @endforeach
+            @empty
+            <h2 class="mt-5 text-center">Coming Soon.</h5>
+                @endforelse
         </div>
     </div>
 </main>
