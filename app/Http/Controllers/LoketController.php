@@ -88,6 +88,9 @@ class LoketController extends Controller
     public function info($no)
     {
         $loket = Loket::where('no_loket', $no)->first();
+        if (!$loket) {
+            abort('404');
+        }
         $prodi = Prodi::all()->sortBy('name');
         $prodiLayanan = ProdiLayananBAAK::all()->where('loket_id', $loket->id);
         // dd($prodiLayanan);

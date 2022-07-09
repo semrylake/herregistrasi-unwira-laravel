@@ -17,10 +17,17 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         User::create([
             'nip' => '23117404',
-            'name' => 'Es Teh 404',
+            'name' => 'Jufento Semri Lake',
             'jk' => 'Laki-laki',
             'level' => 'admin',
             'password' => bcrypt('23117404'),
+        ]);
+        User::create([
+            'nip' => '23117500',
+            'name' => 'Rian Putra Murtaji',
+            'jk' => 'Laki-laki',
+            'level' => 'admin',
+            'password' => bcrypt('23117500'),
         ]);
     }
 }

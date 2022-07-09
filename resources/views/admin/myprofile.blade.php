@@ -15,8 +15,8 @@
                         <h6 class="card-title">{{ $profile->nip }}</h6>
                         <h6 class="card-title">{{ $profile->jk }}</h6>
                         <br>
-                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                            data-target="#editpasswordmodal">Ubah Profil</button>
+                        {{-- <button type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#editpasswordmodal">Ubah Profil</button> --}}
                     </div>
 
                 </div>

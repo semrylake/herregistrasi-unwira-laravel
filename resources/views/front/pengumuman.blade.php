@@ -4,7 +4,7 @@
 <main class="main-content pt-7 mb-5">
     <div class="container">
         <div class="row">
-            @foreach ($pengumuman as $a)
+            @forelse ($pengumuman as $a)
             <a href="/info-pengumuman/{{ $a->id }}" style="text-decoration: none" class="nav-link text-dark">
                 <div class="col-xl-12 col-sm-6 mb-xl-0 mb-4">
                     <div class="card border mb-2 shadow">
@@ -56,7 +56,9 @@
                     </div>
                 </div>
             </a>
-            @endforeach
+            @empty
+            <h2 class="mt-5 text-center">Tidak ada pengumuman terbaru</h5>
+                @endforelse
         </div>
 
 

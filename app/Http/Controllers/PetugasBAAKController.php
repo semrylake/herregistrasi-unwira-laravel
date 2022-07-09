@@ -29,9 +29,13 @@ class PetugasBAAKController extends Controller
     }
     public function profil_pegawai()
     {
+        $user = User::where('id', Auth::user()->id)->first();
+        if (!$user) {
+            return abort('404');
+        }
         $data = [
             "judul" => "Profil saya",
-            "profile" => User::where('id', Auth::user()->id)->first(),
+            "profile" => $user,
         ];
         return view('pegawai-baak.my_profil', $data);
     }

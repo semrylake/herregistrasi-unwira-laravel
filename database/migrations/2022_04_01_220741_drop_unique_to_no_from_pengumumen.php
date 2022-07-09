@@ -14,7 +14,7 @@ class DropUniqueToNoFromPengumumen extends Migration
     public function up()
     {
         Schema::table('pengumumen', function (Blueprint $table) {
-            $table->unique('no');
+            // $table->unique('no');
         });
     }
 

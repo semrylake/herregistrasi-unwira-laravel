@@ -40,19 +40,20 @@
                         </div>
                     </div>
                     <div
-                        class="col-6 shadow d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column">
-                        <div class="position-relative h-100 m-3 px-6 border-radius-lg d-flex flex-column justify-content-center "
-                            style="background-image: url('{{ asset('assets/logounwira/images.jpeg'); }}'); background-size: contain; background-repeat: no-repeat">
-                            <span class="mask opacity-6"></span>
-                            <div style="height: 45%"></div>
-                            <div style="height: 55%">
-                                <img src="{{ asset('assets/logounwira/logo_unwira_2-removebg-preview.png') }}"
-                                    class=" p-3 img-fluid rounded-start" alt="...">
+                        class="col-6 shadow d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center flex-column">
+                        <div class="position-relative h-100 m-3 border-radius-lg d-flex flex-column justify-content-center"
+                            style="background-image: url('{{ asset('assets/logounwira/images.jpeg'); }}');  background-size: 100% 50%; background-repeat: no-repeat">
+                            {{-- <div style="height: 60%">
+                            </div> --}}
+
+                            <div style="height: 10%">
+                                <img style="width:250px"
+                                    src="{{ asset('assets/logounwira/logo_unwira_2-removebg-preview.png') }}"
+                                    class=" p-5 img-fluid rounded-start" alt="...">
                                 <h4 class="font-weight-bolder position-relative">BIRO ADMINISTRASI AKADEMIK DAN
                                     KEMAHASISWAAN (BAAK)</h4>
 
                             </div>
-
                         </div>
                     </div>
                 </div>

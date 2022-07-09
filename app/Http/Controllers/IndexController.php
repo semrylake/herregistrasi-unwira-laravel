@@ -47,7 +47,7 @@ class IndexController extends Controller
     public function pengumuman()
     {
         $pengumuman = Pengumuman::latest()->get();
-        $p = 
+        // $p =
         $data = [
             "judul" => "Pengumuman",
             "pengumuman" => $pengumuman,

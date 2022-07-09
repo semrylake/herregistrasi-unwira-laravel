@@ -29,12 +29,6 @@
                         Pengumuman
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link me-2 text-white" href="#">
-                        {{-- <i class="fas fa-user-circle opacity-6 text-dark me-1"></i> --}}
-                        Tentang Kami
-                    </a>
-                </li>
                 <li class="nav-item ">
                     <a class="nav-link me-2 text-white" href="/auth">
                         {{-- <i class="fas fa-user-circle opacity-6 text-dark me-1"></i> --}}

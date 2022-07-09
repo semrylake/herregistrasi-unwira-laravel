@@ -92,6 +92,9 @@ class AdminController extends Controller
     public function myprofile()
     {
         $profile = User::where('id', Auth::user()->id)->first();
+        if (!$profile) {
+            abort('404');
+        }
         $data = [
             "judul" => "My Profile",
             "profile" => $profile

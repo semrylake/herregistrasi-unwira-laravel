@@ -1,6 +1,6 @@
 <div class="app-sidebar sidebar-shadow">
     <div class="app-header__logo">
-        <img src="{{ asset('assets/logounwira/logo_unwira_2-removebg-preview.png') }}" width="45" alt="">
+        {{-- <img src="{{ asset('assets/logounwira/prisa.png') }}" width="45" alt=""> Dashboard --}}
         <div class="header__pane ml-auto">
             <div>
                 <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"

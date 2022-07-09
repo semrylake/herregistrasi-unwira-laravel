@@ -8,11 +8,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class=" col-lg-8 text-center mx-auto">
-                    <h1 class=" mb-3 mt-9">BAAK UNWIRA</h1>
+                    <h1 class=" mb-3 mt-9">BAAK ONLINE</h1>
                     <p class="text-lead fs-4 text-white">
                         Biro yang menangani segala sesuatu yang berkaitan dengan
-                        penyelenggaraan kegiatan belajar mengajar dan administrasi akademik bagi seluruh mahasiswa <br>
-                        Universitas Katolik Widya Mandira.</p>
+                        penyelenggaraan kegiatan belajar mengajar dan administrasi akademik bagi seluruh mahasiswa.</p>
                     <a href="/loket-baak" style="cursor: grabbing"
                         class="btn btn-lg text-uppercase p-3 mt-3 btn-success">GET STARTED</a>
                 </div>

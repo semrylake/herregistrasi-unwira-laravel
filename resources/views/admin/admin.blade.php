@@ -37,8 +37,18 @@
                                     <div class="widget-content-wrapper">
                                         <div class="widget-content-left mr-3">
                                             <div class="widget-content-left">
+                                                @if ($a->foto)
                                                 <img width="40" height="40" class="rounded-circle"
                                                     src="{{ asset('storage/'.$a->foto) }}" alt="">
+                                                @else
+                                                @if (Auth::user()->jk == 'Laki-laki')
+                                                <img width="42" height="42" class="rounded-circle"
+                                                    src="{{ asset('assets/avatar/male.png') }}" alt="">
+                                                @else
+                                                <img width="42" height="42" class="rounded-circle"
+                                                    src="{{ asset('assets/avatar/female.png') }}" alt="">
+                                                @endif
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="widget-content-left flex2">

@@ -59,6 +59,9 @@ class PengumumanController extends Controller
     public function detail($no)
     {
         $pengumuman = Pengumuman::where('id', $no)->first();
+        if (!$pengumuman) {
+            abort('404');
+        }
         // dd($pengumuman);
         $data = [
             'judul' => "Pengumuman",

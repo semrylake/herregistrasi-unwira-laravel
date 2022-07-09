@@ -1,7 +1,8 @@
 <div class="app-header header-shadow">
     <div class="app-header__logo">
         {{-- {{ config('app.name') }} --}}
-        <img src="{{ asset('assets/logounwira/logo_unwira_2-removebg-preview.png') }}" width="45" alt="">
+        {{-- <img src="{{ asset('assets/logounwira/prisa.png') }}" width="45" alt="" --}} {{-- <h5
+            class="fw-bold text-dark">Dashboard</h5> --}}
         <div class="header__pane ml-auto">
             <div>
                 <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"

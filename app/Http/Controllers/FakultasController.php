@@ -55,7 +55,7 @@ class FakultasController extends Controller
             'kode_fakultas' => 'required|max:2',
             'nama' => 'required',
         ]);
-        
+
         $fakultas = Fakultas::where('kode_fakultas', $kode)->first();
         if ($request->kode_fakultas != $fakultas->kode_fakultas) {
             $request->validate([
@@ -72,8 +72,9 @@ class FakultasController extends Controller
     }
     public function destroy($kode)
     {
-        $fakultas = Fakultas::where('kode_fakultas', $kode)->first();
-        DB::table('fakultas')->where('id', $fakultas->id)->delete();
+        // dd($kode);
+        // $fakultas = Fakultas::where('kode_fakultas', $kode)->first();
+        DB::table('fakultas')->where('id', $kode)->delete();
         return redirect()->back()->with('del_msg', 'Data berhasil dihapus.');
     }
 }

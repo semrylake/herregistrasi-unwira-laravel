@@ -14,8 +14,8 @@ class DropColumnSlugFromPengumumen extends Migration
     public function up()
     {
         Schema::table('pengumumen', function (Blueprint $table) {
-            $table->dropUnique(['slug']);
-            $table->dropColumn('slug');
+            // $table->dropUnique(['slug']);
+            // $table->dropColumn('slug');
         });
     }
 

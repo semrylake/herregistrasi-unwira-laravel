@@ -5,7 +5,7 @@
     <div class="container">
         <a href="/loket-baak" class="btn btn-outline-primary btn-sm mb-1"><i class="fas fa-arrow-left me-2"></i>
             Kembali</a>
-        <a href="/riwayat-registrasi-mahasiswa" class="btn btn-outline-dark btn-sm mb-1"><i
+        <a href="/riwayat-registrasi-mahasiswa" target="_blank" class="btn btn-outline-dark btn-sm mb-1"><i
                 class="fas fa-search me-2"></i>
             Riwayat Registrasi</a>
 
